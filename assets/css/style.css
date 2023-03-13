@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&family=Poppins:wght@200&family=Rajdhani:wght@500&display=swap');
+
+/*TO DO LIST
+
+-ubaciti meta tagove za deskripciju
+
+-h1 tag prebaciti negde na stranicu ! ! !
+
+
+
+*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline: none;
+	box-sizing: border-box;
+}
+
+:root {
+	--overlay: #EEF0ED;
+	--blackgray: #18191D;
+}
+
+body {
+	background-color: var(--overlay);
+}	
+
+html {
+  scroll-behavior: smooth;
+}
+
+#w {
+    background-color: var(--overlay);
+	width: 1100px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.cleaner {
+	clear: both;
+}
+
+.center {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+header {
+	background-color: #FFF;
+	width: 100%;
+	height: 80px;
+}
+
+#social {
+	float: left;
+	width: 50px;
+	height: 10px;
+	margin-top: 0px;
+}
+
+#menublock {
+	background-color: #fff;
+	width: 1100px;
+	height: 80px;
+	margin: auto;
+}
+
+#menuslika {
+	float: left;
+	position: absolute;
+}
+
+#menuslika img {float: left;
+				position: relative;}
+
+#menuslika h1 {
+				position: relative;
+				top: -68px;
+				left: 60px;
+				font-size: 45px;
+				font-weight: normal;
+				font-family: 'Bebas Neue', cursive;
+				color: #333333;}
+
+nav {
+	margin-left: 340px;
+	float: left;
+	list-style-type: none;
+}
+nav li{
+	float: left;
+	padding-left: 55px;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+a {
+	color: #383434;
+	text-decoration: none;
+}
+
+nav li a{
+	color: #383434;
+	letter-spacing: 2px;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 22px;
+	transition: background-color 0.5s;
+}
+
+nav li a:hover {
+	background-color: #FFD700;
+}
+
+.active{
+	background-color: #FFD700;
+}
+
+#centerblock {
+	background-color: var(--overlay);
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#centerblock p{
+	padding-top: 30px;
+}
+
+#mainblock {
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/main-img.jpg);
+	background-repeat: no repeat;
+	background-attachment: fixed;
+}
+
+.prozorclass {
+	width: 500px;
+	height: 500px;
+}
+
+/* PROZORI */
+
+.leviprozor {
+	float: left;
+}
+.desniprozor {
+	float: left;
+	background-color: #FFF;
+}
+.desniprozor h2{
+	margin-top: 20%;
+	margin-left: 10%;
+	font-size: 56px;
+	font-family: 'PT Sans', sans-serif;
+	text-align: left;
+}
+
+.desniprozor p{
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+}
+
+#leviprozor1 img {
+	padding: 35px;
+}
+
+/*=======================KRAJ PROZORA========================*/
+
+#imagediv {
+	padding: 10px 0px 10px 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5)
+}
+
+#container {
+	margin-left: 540px;
+}
+
+#container p {
+	padding: 5px;
+}
+
+.trans a {
+	letter-spacing: 2px;
+	font-family: 'Poppins', sans-serif;
+	transform: translate(-50%, -50%);
+	transition-duration: 1s;
+}
+
+.trans a:hover {
+	letter-spacing: 8px;
+}
+
+.con {
+	float: left;
+	width: 200px;
+	padding: 10px 0px;
+    background: #FFD700;
+    border: 1px solid #FFD700;
+	margin-left: 20px;
+	transition-duration: .5s;
+}
+
+#ikonice a{
+	padding: 0px 6px;
+}
+
+.con:hover {
+	border-radius: 15px 0px 15px 0px;
+}
+
+#ikonice {
+	padding-top: 20px;
+}
+
+#ikonice i {
+	font-size: 20px;
+	transition: transform .7s ease-in-out;
+}
+
+i:hover {
+  transform: rotate(360deg);
+}
+
+/*=================OBRADA FOTOGRAFIJA================*/
+
+.w2 {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.holder{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.block{
+	margin-top: 50px;
+	float:left;
+	width: 500px;
+	height: 350px;
+}
+
+#obrada-foto{
+	background-color: var(--blackgray);
+	width: 100%;
+	height: 350px;
+}
+
+#obrada-foto img {
+	width: 500px;
+	transition: border-radius 0.5s;
+}
+
+#obrada-foto img:hover {
+	border-radius: 60px 0px 60px 0px;
+}
+
+#obrada-foto p {
+	color: #fff;
+	font-size: 23px;
+	font-family: 'Poppins', sans-serif;
+	text-align: justify;
+	padding: 35px;
+}
+
+/*===================KRAJ FOTOGRAFIJA================*/
+
+/*======================SPEC PONUDA==================*/
+
+#spec-ponuda{
+	background-color: #fff;
+	width: 100%;
+	height: 350px;
+	border: 30px solid transparent;
+	border-image: url(../img/border-repeat.png) 40 round;
+	border-right: none;
+	border-left: none;
+}
+
+#spec-ponuda2{
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+	border: 30px solid transparent;
+	border-image: url(../img/border-repeat.png) 40 round;
+	border-right: none;
+	border-left: none;
+}
+
+#spec-ponuda2 img {
+	width: 100%;
+	height: 100%;
+}
+
+#spec-ponuda h3 {
+	padding: 50px;
+	font-size: 40px;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+}
+
+#spec-ponuda span {
+	color: #FFD700;
+}
+#spec-ponuda .pohvale span {
+	color: #000;
+}
+
+#spec-ponuda p {
+	padding: 10px;
+	font-size: 18px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+/*=====================FOOTER=========================*/
+
+footer{
+	background-color: var(--blackgray);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#f-id-drugi {
+	padding-left: 140px;
+}
+
+#f-id-treci li {
+	text-align: right;
+}
+
+#f-id-treci {
+	padding-right: 90px;
+}
+
+.f-prvi p {
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+}
+
+.f-prvi {
+	width: 400px;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
+.f-prvi ul {
+	list-style-type: none;
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.f-prvi ul li a {
+	color: #fff;
+}
+
+.f-prvi ul li {
+	padding-top: 8px;
+}
+
+.f-prvi img {
+	padding-top: 20px;
+}
+
+#fdown{
+	height: 100px;
+}
+#fdown p {
+	font-family: 'Poppins', sans-serif;
+	margin-top: 30px;
+	margin-left: 400px;
+	float:left;
+	color: var(--overlay);
+	text-align: right;
+}
+#fdown img{
+	float: left;
+}
+
+#copyright {
+	text-align: center;
+	padding: 8px;
+	background-color: #333333;
+	height: 40px;
+	width: 100%;
+}
+
+#copyright p {
+	font-family: 'Poppins', sans-serif;
+}
+
+#back-to-top {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    background-color: #FFD700;
+    border-radius: 50%;
+    z-index: 1;
+    bottom: 15px;
+    right: 15px;
+	transition: border-radius 0.5s;
+}
+
+#back-to-top:hover {
+	border-radius: 60px 20px;
+}
+
+.strelica{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+	margin-left: 2.5px;
+}
+
+
+/*===================KRAJ FOOTER======================*/
+/*====================KONTAKT========================*/
+
+.flex-container {
+	display: flex;
+	width: 100%;
+	margin-top: 50px;
+	background-color: rgba(255,255,255, 0.1);
+	justify-content: space-between;
+	padding: 10px;
+}
+
+#kontakt-body {
+	background-image: url(../img/body-foto.jpg);
+}
+
+#kontakt {
+	width: 49%;
+	height: 600px;
+	background-color: #fff;
+}
+
+#kontakt2 {
+	width: 49%;
+}
+
+#kontakt h1 {
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* CSS */
+.dugme {
+	align-items: center;
+	background-color: #FFD700;
+	border: 1px solid transparent;
+	box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 2px;
+	color: #000;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 0;
+	padding: 10px 20px;
+	transition: all 250ms;
+	width: auto;
+}
+
+.dugme:hover,
+.dugme:focus {
+  background-color: #e8c400;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.dugme:hover {
+  transform: translateY(-1px);
+}
+
+.dugme:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.kontakt-forma {
+	width: 90%;
+	margin: 0px auto;
+}
+
+.f-zakazivanje input,textarea {
+	width: 100%;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    font-size: 12px;
+    padding: 15px;
+    margin: 5px 0;
+}
+
+.form-input-size {
+    height: 28px;
+	padding: 5px;
+}
+
+#kontakt label {
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.f-zakazivanje {
+	padding: 10px;
+	background-color: var(--overlay);
+}
+
+#send-button {
+	text-align: center;
+}
+
+/*=================KRAJ KONTAKT=====================*/
+
+/*=================POCETAK O-NAMA=====================*/
+
+#map-center{
+	margin-top: 50px;
+}
+
+.map{
+	float: left;
+	width: 500px;
+	height: 300px;
+}
+
+#o-nama-map {
+	background-image: url(../img/o-nama-foto.jpg);
+	background-repeat: no-repeat;
+}
+
+.map p {
+	text-align: justify;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+}
+
+#map-padding {
+	padding-left: 80px;
+}
+
+.pohvale{
+	margin-top: 60px;
+	float: left;
+	width: 333px;
+	height: 200px;
+}
+
+#spec-ponuda .pohvale p {
+	text-align: left;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+}
+
+#spec-ponuda .pohvale h3 {
+	padding: 20px;
+	text-align: left;
+}
+
+.pohvale span {
+	margin-left: 20px;
+}
+
+.pohvale i {
+	padding-left: 10px;
+	color: #FFF;
+}
+
+.pohvale-div {
+    width: 50px;
+    height: 50px;
+    background-color: #FFD700;
+    border-radius: 50%;
+    z-index: 1;
+    bottom: 15px;
+    right: 15px;
+	transition: border-radius 0.5s;
+	float: left;
+}
+
+.pohvale-div:hover {
+	border-radius: 60px 20px;
+}
+
+/*=================KRAJ O-NAMA=====================*/
+
+/*==================O AUTORU=======================*/
+
+
+#slika-autora img {
+	transition: border-radius 0.5s;
+}
+
+#slika-autora {
+	width: 200px;
+	height: 300px;
+	float: left;
+	margin-left: 200px;
+}
+
+.map p a {
+	transition: font-weight;
+	text-decoration: underline;
+}
+
+.map p a:hover {
+	font-weight: 700;
+}
+
+/*===================GALERIJA======================*/
+
+.container1, .container2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+#galerija-main #spec-ponuda {
+	height: 460px;
+}
+
+.container1 {
+	 animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.container2 {
+	 animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.slika {
+	width: 250px;
+	height: 400px;
+}
+
+.slika img {
+	cursor:zoom-in;
+	filter: grayscale(70%);
+	transition: .5s;
+}
+
+.slika img:hover {
+	filter: grayscale(0%);
+	transform: scale(1.05);
+}
+
+
+/*galerija animacije*/
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+	opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+	opacity: 1.0;
+  }
+}
+
+.foto-info {
+	margin-top: 27px;
+}
+
+
+/*=================KRAJ GALERIJA===================*/
