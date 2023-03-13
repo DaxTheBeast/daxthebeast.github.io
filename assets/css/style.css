@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&family=Poppins:wght@200&family=Rajdhani:wght@500&display=swap');
 
-/*TO DO LIST
-
--ubaciti meta tagove za deskripciju
-
--h1 tag prebaciti negde na stranicu ! ! !
-
-
-
-*/
 
 * {
 	margin: 0px;
@@ -96,7 +87,7 @@ nav {
 }
 nav li{
 	float: left;
-	padding-left: 55px;
+	padding-left: 45px;
 	margin-top: 25px;
 	margin-bottom: 30px;
 }
@@ -107,6 +98,7 @@ a {
 }
 
 nav li a{
+	padding: 5px;
 	color: #383434;
 	letter-spacing: 2px;
 	font-family: 'Rajdhani', sans-serif;
