@@ -308,6 +308,7 @@ i:hover {
 }
 
 #spec-ponuda span {
+	font-size: 32px;
 	color: #FFD700;
 }
 #spec-ponuda .pohvale span {
