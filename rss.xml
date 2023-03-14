@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>PhotoStudio dax</title>
+    <link>https://daxthebeast.github.io/</link>
+    <description>PHOTOSTUDIO dax - Vaš pouzdan partner za kvalitetno fotografiranje.</description>
+    <language>sr</language>
+    <lastBuildDate>Fri, 14 Mar 2023 12:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Galerija</title>
+      <link>https://daxthebeast.github.io/galerija.html</link>
+      <description>Svakih nedelju dana kačimo nove slike.</description>
+      <pubDate>Fri, 14 Mar 2023 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Informacije o nama</title>
+      <link>https://daxthebeast.github.io/o-nama.html</link>
+      <description>Često dodajemo nove lokale i nova mesta.</description>
+      <pubDate>Fri, 14 Mar 2023 12:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
