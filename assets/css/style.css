@@ -302,13 +302,13 @@ i:hover {
 
 #spec-ponuda h3 {
 	padding: 50px;
-	font-size: 40px;
+	font-size: 35px;
 	text-align: center;
 	font-family: 'PT Sans', sans-serif;
 }
 
 #spec-ponuda span {
-	font-size: 32px;
+	font-size: 35px;
 	color: #FFD700;
 }
 #spec-ponuda .pohvale span {
