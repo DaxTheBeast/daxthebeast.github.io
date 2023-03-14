@@ -73,7 +73,7 @@ header {
 
 #menuslika h1 {
 				position: relative;
-				top: -68px;
+				top: -65px;
 				left: 60px;
 				font-size: 45px;
 				font-weight: normal;
@@ -167,6 +167,10 @@ nav li a:hover {
 	padding: 45px;
 }
 
+#desniprozor1 p {
+	letter-spacing: 1px;
+}
+
 /*=======================KRAJ PROZORA========================*/
 
 #imagediv {
@@ -206,7 +210,7 @@ nav li a:hover {
 }
 
 #ikonice a{
-	padding: 0px 6px;
+	padding-left: 15px;
 }
 
 #ikonice {
@@ -249,6 +253,8 @@ i:hover {
 }
 
 #obrada-foto img {
+	border-left: 5px solid #FFD700;
+	border-bottom: 5px solid #FFD700;
 	width: 500px;
 	transition: border-radius 0.5s;
 }
@@ -259,10 +265,10 @@ i:hover {
 
 #obrada-foto p {
 	color: #fff;
-	font-size: 23px;
+	font-size: 18px;
 	font-family: 'Poppins', sans-serif;
 	text-align: justify;
-	padding: 35px;
+	padding: 50px;
 }
 
 /*===================KRAJ FOTOGRAFIJA================*/
@@ -426,7 +432,7 @@ footer{
 	display: flex;
 	width: 100%;
 	margin-top: 50px;
-	background-color: rgba(255,255,255, 0.1);
+	background-color: rgba(255,255,255, 0.4);
 	justify-content: space-between;
 	padding: 10px;
 }
@@ -443,6 +449,8 @@ footer{
 
 #kontakt2 {
 	width: 49%;
+	display: flex;
+	flex-direction: column;
 }
 
 #kontakt h1 {
@@ -450,6 +458,21 @@ footer{
 	padding: 20px 0px 20px 0px;
 	font-size: 20px;
 	font-family: 'Poppins', sans-serif;
+}
+
+#info-tekst {
+	padding-top: 30px;
+}
+
+#info-tekst p {
+	padding-bottom: 10px;
+	color: #000;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+}
+
+#info-tekst span {
+	font-weight: bold;
 }
 
 /* CSS */
@@ -535,7 +558,7 @@ footer{
 }
 
 #o-nama-map {
-	background-image: url(../img/o-nama-foto.jpg);
+	background-image: url(../img/logo-o-nama.png);
 	background-repeat: no-repeat;
 }
 
