@@ -164,7 +164,7 @@ nav li a:hover {
 }
 
 #leviprozor1 img {
-	padding: 35px;
+	padding: 45px;
 }
 
 /*=======================KRAJ PROZORA========================*/
@@ -177,7 +177,7 @@ nav li a:hover {
 }
 
 #container {
-	margin-left: 530px;
+	margin-left: 464px;
 }
 
 #container p {
@@ -185,8 +185,9 @@ nav li a:hover {
 }
 
 .trans a {
-	letter-spacing: 2px;
-	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	letter-spacing: 5px;
+	font-family: 'Rajdhani', sans-serif;
 	transform: translate(-50%, -50%);
 	transition-duration: 1s;
 }
@@ -201,16 +202,11 @@ nav li a:hover {
 	padding: 10px 0px;
     background: #FFD700;
     border: 1px solid #FFD700;
-	margin-left: 20px;
-	transition-duration: .5s;
+	margin-left: 60px;
 }
 
 #ikonice a{
 	padding: 0px 6px;
-}
-
-.con:hover {
-	border-radius: 15px 0px 15px 0px;
 }
 
 #ikonice {
