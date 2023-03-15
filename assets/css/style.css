@@ -247,7 +247,8 @@ i:hover {
 }
 
 #obrada-foto{
-	background-color: var(--blackgray);
+	background-image: url(../img/traka2.jpg);
+	/* background-color: var(--blackgray); */
 	width: 100%;
 	height: 350px;
 }
@@ -268,7 +269,11 @@ i:hover {
 	font-size: 18px;
 	font-family: 'Poppins', sans-serif;
 	text-align: justify;
-	padding: 50px;
+	padding-left: 50px;
+}
+
+#obrada-foto a {
+	color: #FFD700;
 }
 
 /*===================KRAJ FOTOGRAFIJA================*/
