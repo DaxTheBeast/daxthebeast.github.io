@@ -349,7 +349,7 @@ footer{
 	padding-right: 90px;
 }
 
-.f-prvi p {
+.f-prvi p,a {
 	font-size: 14px;
 	color: #fff;
 	font-family: 'Poppins', sans-serif;
